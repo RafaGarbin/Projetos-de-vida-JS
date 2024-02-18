@@ -9,6 +9,6 @@
 }
 body{
     background-color: var(--cor-de-fundo);
-    color: var(--botao-ativo);
+    color: var(--botao-inativo);
     font-family: 'Chakra Petch', sans-serif; 
 }
