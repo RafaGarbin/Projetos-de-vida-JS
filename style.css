@@ -64,3 +64,8 @@ body{
     } 
     
 }
+
+.botao.ativo{
+    background-color: green;
+    border-bottom: 4px solid green;
+}
