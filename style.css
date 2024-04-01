@@ -6,7 +6,7 @@
     --botao-ativo :#a23a98;
     --branco:#ffffff;
     --cor-letra: #ca1561;
-    --sublinhado:#e13ea3;
+    --sublinhado:#f62cca;
 }
 body{
     background-color: var(--cor-de-fundo);
