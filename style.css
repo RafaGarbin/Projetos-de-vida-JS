@@ -72,12 +72,12 @@ body{
     display: none;
 }
 
-aba-conteudo-titulo-principal{
+.aba-conteudo-titulo-principal{
     font-size: 28px;
     text-align: center;
 }
 
-aba-conteudo-titulo-secundario{ 
+.aba-conteudo-titulo-secundario{ 
     text-align: center;
     color: var(--sublinhado);
     text-transform: uppercase;
