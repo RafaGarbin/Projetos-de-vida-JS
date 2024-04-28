@@ -84,8 +84,9 @@ body{
 }
 
 .contador{
-    font-size: 20px;
+    font-size: 35px;
     text-align: center;
+    color: var(--sublinhado);
 }
 @media screen and (min-width:768px) {
     .botoes{ display: flex;
