@@ -17,7 +17,7 @@ const contadores = document.querySelectorAll(".contador");
 const tempoObjetivo1 = new Date("2024-12-13T23:59:59");
 const tempoObjetivo2 = new Date("2024-11-30T23:59:59");
 const tempoObjetivo3 = new Date("2024-09-01T23:59:59");
-const tempoObjetivo4 = new Date("2024-03-30T23:59:59");
+const tempoObjetivo4 = new Date("2024-07-30T23:59:59");
 
 
 const tempos=[tempoObjetivo1, tempoObjetivo2, tempoObjetivo3,tempoObjetivo4];
@@ -41,4 +41,9 @@ let dias=Math.floor (horas/24);
 segundos %=60;
 minutos %=60;
 horas %=24
+if (tempoFinal>0){
 return dias+" dias "+ horas+" horas "+minutos+" minutos "+segundos+" segundos ";}
+}
+else {
+    return "PRAZO FINALIZADO";
+}
